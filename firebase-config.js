@@ -1,6 +1,6 @@
 // Firebase Configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyAG8L3rITbAYveN5n90bAGAP9SNcFwNyUw",
+    apiKey: "apply your api key",
     authDomain: "operationschedulingmanagement.firebaseapp.com",
     databaseURL: "https://operationschedulingmanagement-default-rtdb.firebaseio.com",
     projectId: "operationschedulingmanagement",
