@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Operation Scheduling</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Hospital Operation Scheduling</h1>
+        <form id="scheduleForm">
+            <label for="patientName">Patient Name:</label>
+            <input type="text" id="patientName" required>
+
+            <label for="doctorName">Doctor Name:</label>
+            <input type="text" id="doctorName" required>
+
+            <label for="operationDate">Operation Date:</label>
+            <input type="date" id="operationDate" required>
+
+            <label for="operationTime">Operation Time:</label>
+            <input type="time" id="operationTime" required>
+
+            <label for="operationType">Operation Type:</label>
+            <input type="text" id="operationType" required>
+
+            <button type="submit">Schedule Operation</button>
+        </form>
+        <div id="scheduleList">
+            <h2>Scheduled Operations</h2>
+            <ul id="operationList"></ul>
+        </div>
+    </div>
+
+    <script src="script.js" type="module"></script>
+</body>
+</html>
