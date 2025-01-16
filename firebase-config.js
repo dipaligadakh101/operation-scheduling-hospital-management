@@ -5,8 +5,8 @@ const firebaseConfig = {
     databaseURL: "https://operationschedulingmanagement-default-rtdb.firebaseio.com",
     projectId: "operationschedulingmanagement",
     storageBucket: "operationschedulingmanagement.firebasestorage.app",
-    messagingSenderId: "43089010562",
-    appId: "1:43089010562:web:bba7792900f2e2d326799b"
+    messagingSenderId: "apply your id",
+    appId: "apply your id"
 };
 
 // Initialize Firebase
